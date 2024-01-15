@@ -12,9 +12,16 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
         <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @vite([
+            'resources/css/app.css',
+            'resources/css/flowbite.css',
+            'resources/js/app.js', 
+            'resources/js/flowbite.js
+        '])
+
+
     </head>
-    <body class="font-sans antialiased">
+    <body class="font-sans antialiased" style="font-family: 'Figtree';">
         <div class="min-h-screen bg-gray-100">
             @include('layouts.navigation')
 

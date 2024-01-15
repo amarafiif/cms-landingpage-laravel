@@ -30,7 +30,7 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::prefix('admin')->group(function () {
-    Route::resource('projects', ProjectController::class);
+    Route::resource('projects', ProjectController::class)->names('admin.projects');
 })->middleware(['auth'])->name('projects');
 
 require __DIR__ . '/auth.php';
