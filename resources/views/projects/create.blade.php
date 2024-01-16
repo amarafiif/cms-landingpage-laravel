@@ -11,7 +11,7 @@
                 <section class="bg-white">
                     <div class="py-8 px-12 mx-auto max-w-full lg:py-16">
                         <h2 class="mb-12 text-xl font-bold text-gray-900">Add a new product</h2>
-                        <form action="{{ route('projects.store')}}" method="POST" enctype="multipart/form-data">
+                        <form action="{{ route('admin.projects.store')}}" method="POST" enctype="multipart/form-data">
                             @csrf
                             <div class="grid gap-4 sm:grid-cols-2 sm:gap-6">
                                 <div class="sm:col-span-2">

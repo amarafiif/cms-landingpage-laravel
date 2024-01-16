@@ -14,12 +14,8 @@
         <!-- Scripts -->
         @vite([
             'resources/css/app.css',
-            'resources/css/flowbite.css',
             'resources/js/app.js', 
-            'resources/js/flowbite.js
-        '])
-
-
+            ]);
     </head>
     <body class="font-sans antialiased" style="font-family: 'Figtree';">
         <div class="min-h-screen bg-gray-100">
